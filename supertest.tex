@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{amsmath}
+%\usepackage{fullpage}
 
 
 \title{Super Secret Test} % TO-DO
@@ -7,6 +8,8 @@
 \date{\today} % TO-DO
 
 \begin{document} \maketitle
+\thispagestyle{empty}
+\vfill
 \begin{enumerate}
 
 \item[1.] % Ukraine 2018, Grade 9 Problem 4, N
@@ -17,24 +20,33 @@
 
 
 \item[2.] % Czech & Slovak MO 2018 Q1, C
-	Thandi is filling the cells of a rectangular table alternately with crosses and circles (she starts with a cross).
+	Thandi is filling the cells of a $2019 \times 2019$ table alternately with crosses and circles (she starts with a cross).
 	When the table is filled in completely, she determines her score as $X_r+X_c-O_r-O_c$ where $X_r$ is the sum of the squares of the number of crosses in each row, $X_c$ is the sum of the squares of the number of crosses in each column, $O_r$ is the sum of the squares of the numbers of circles in each row, and $O_c$ is the sum of the squares of the number of circles in each column.
-	Find all possible values of the score for a $2019 \times 2019$ table.
+	Find all possible values of the score.
 
 
-\item[3.]
+\item[3.] % Irish Compendium 60 Q20, G
+	Parallelograms $ABCD$ and $EFGH$ are such that points $A$, $B$, $E$, and $F$ are collinear and points $C$, $D$, $G$, and $H$ are collinear.
+	Lines $AD$ and $EH$ meet at $P$, lines $BC$ and $FG$ meet at $Q$, and lines $AC$ and $EG$ meet at $R$.
+
+	Prove that $P$, $Q$ and $R$ are collinear.
 
 
 \item[4.] % Czech and Slovak Mathematics Olympiad 2018, Final Round, Problem 4
 
-Let $a$, $b$, and $c$ be positive integers that are the side-lengths of a non-degenerate triangle, and satisfy $\gcd(a, b, c) = 1$. Suppose that the fractions
+Let $a$, $b$, and $c$ be positive integers that are the side-lengths of a non-degenerate triangle, and satisfy $\gcd(a, b, c) = 1$.
+Suppose that the fractions
 \begin{align*}
 	& \frac{a^2 + b^2 - c^2}{a + b - c}, && \frac{b^2 + c^2 - a^2}{b + c - a}, && \frac{c^2 + a^2 - b^2}{c + a - b}
 \end{align*}
-are all integers. Prove that the product of the denominators of the three fractions is either a square or twice the square of an integer.
+are all integers.
+Prove that the product of the denominators of the three fractions is either a square or twice the square of an integer.
 
 
-\item[5.]
+\item[5.] % Argentinian MO 2017 Third Level Q2, C
+	Given are $51$ positive integers written in a row, with sum equal to $100$.
+	An integer is called \emph{representable} if it can be expressed as the sum of several consecutive numbers in the given row.
+	Prove that for each $k \in \{1, 2, \dotsc, 100\}$ at least one of the numbers $k$ and $100-k$ is representable.
 
 
 \item[6.] % Turkish MO 2019 Q4
@@ -45,4 +57,5 @@ are all integers. Prove that the product of the denominators of the three fracti
 
 
 \end{enumerate}
+\vfill
 \end{document}
